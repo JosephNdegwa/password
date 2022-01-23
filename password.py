@@ -97,4 +97,64 @@ def login():
 
 
                 return True
+            else:
+                print("Forgot your password ?(y/n)")
+                response = input().lower()
+                if response == 'y':
+                    print("Please enter your username")
+                    username = input()
+                    for line in open("credential.txt", "r").readlines():
+                        my_file = line.split()
+
+                        to_be_printed = my_file[1]
+                        username1 = my_file[0]
+                        if username == username1:
+                            print(f"your password is {to_be_printed}")
+                        else:
+                           
+                            login()
+                           
+                else:
+                    print("Please try again")
+
+                    login()
+
+
+
+
+
+
+
+
+class User:
+
+    """
+    Class that generates new instances of Users
+    """
+    User_list = []
+
+    def __init__(self,username,password,email):
+
+     
+
+        self.username = username
+        self.password = password
+        self.email = email
+
+
+class credential:
+
+    """
+    Class that generates new instances of Users
+    """
+    User_list = []
+
+    def __init__(self,account,password,):
+
+      
+
+        self.account = account
+        self.password = password
+
+
 
