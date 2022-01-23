@@ -75,3 +75,26 @@ def generate_account():
 
 
 
+def login():
+    print("Please enter your username")
+    username = input()
+    print("\n")
+    print("Please enter your password")
+    password = input()
+    print("\n")
+    print("Please enter your email")
+    email = input()
+    for line in open("credential.txt", "r").readlines():
+            myVar = line.split()
+            if username == myVar[0] and password == myVar[1]:
+                print("login successful")
+                print("Would you like to explore more on Password?(y/n)")
+                jibu = input()
+                if jibu == 'y':
+                    generate_account()
+                else:
+                    print("Get back to us to save a password for you!")
+
+
+                return True
+
