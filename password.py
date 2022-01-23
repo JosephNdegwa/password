@@ -62,3 +62,16 @@ def generate_account():
         handle.write(" ")
 
 
+
+        handle.close()
+        print(f"Password to your new {account_to_be_saved} account is {password} and has been saved and copied, you can paste it anywhere in your laptop")
+        pyperclip.copy(password)
+    else:
+        print("Type your password")
+        password = input()
+        pyperclip.copy(password)
+
+        print(f"Password to your new {account_to_be_saved} account is {password} and has been saved and copied, you can paste it anywhere in your laptop.")
+
+
+
