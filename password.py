@@ -21,7 +21,7 @@ def all():
         print("\n")
 
 
-        handle = open("credentials.txt","a")
+        handle = open("credential.txt","a")
 
         handle.write(username)
         handle.write(" ")
