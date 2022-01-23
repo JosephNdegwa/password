@@ -1,15 +1,13 @@
-class User:
-    """
-    Class that generates new instances of Users
-    """
-    user_list = []
+from multiprocessing.connection import answer_challenge
+import random
+import pyperclip
 
-    def __init__(self,user_name,password,email):
+def all():
+    print("Do you have an existing account?(y/n)")
+    answer = input().lower()
 
-      """
-      init method that defines properties for our objects
-      """
-
-    self.user_name = username
-    self.password = password
-    self.email = email
+    if answer == 'n':
+        print("Please enter your name:")
+        username = input()
+        print("\n")
+        
