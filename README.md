@@ -6,7 +6,7 @@ This is an application that allows users to save credentials for their accounts 
 Joseph Ndegwa
 
 ## Setup and installation
-* run git [clone](https://https://github.com/JosephNdegwa/password)
+* run git clone `https://https://github.com/JosephNdegwa/password`
 * cd hello-world
 * Serve it on the web
 
