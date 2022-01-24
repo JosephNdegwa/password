@@ -18,3 +18,9 @@ def test_init(self):
     self.assertEqual(self.new_User.user_name,"Joseph")
     self.assertEqual(self.new_User.password,"Password")
     self.assertEqual(self.new_User.email,"joseph.ndegwa@student.moringaschool.com")
+
+
+
+
+if __name__ == '__main__':
+    unittest.main()
