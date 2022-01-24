@@ -48,7 +48,7 @@ def all():
 def generate_account():
     print("Which account would you like to save a password for?")
     account_to_be_saved = input()
-    print("Enter 'auto'- for an auto-generated password or 'mine'- to save your own password")
+    print("Please enter 'auto'- for an auto-generated password or 'mine'- to save your own password")
     choice = input()
     if choice == 'auto':
         reversed_account_name = account_to_be_saved[::-1]

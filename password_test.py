@@ -14,3 +14,7 @@ def test_init(self):
     '''
     test_init test case to test if the object is initialized properly
     '''
+
+    self.assertEqual(self.new_User.user_name,"Joseph")
+    self.assertEqual(self.new_User.password,"Password")
+    self.assertEqual(self.new_User.email,"joseph.ndegwa@student.moringaschool.com")
