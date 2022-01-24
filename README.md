@@ -7,7 +7,6 @@ Joseph Ndegwa
 
 ## Setup and installation
 * run git clone `https://https://github.com/JosephNdegwa/password`
-* cd hello-world
 * Serve it on your terminal
 
 ## Technologies

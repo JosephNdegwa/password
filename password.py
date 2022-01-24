@@ -1,5 +1,3 @@
-import email
-from multiprocessing.connection import answer_challenge
 import random
 import pyperclip
 
