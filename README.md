@@ -8,7 +8,7 @@ Joseph Ndegwa
 ## Setup and installation
 * run git clone `https://https://github.com/JosephNdegwa/password`
 * cd hello-world
-* Serve it on the web
+* Serve it on your terminal
 
 ## Technologies
 * Python
@@ -17,5 +17,10 @@ Joseph Ndegwa
 # To-do
 * Add web user interface 
 * link to a server
+
+## LIcense
+ [MIT](https://choosealicense.com/licenses/mit/)
+
+ Copyright (C) {2020}
 
 
