@@ -19,7 +19,7 @@ Joseph Ndegwa
 
 # Contact information
 For further enqueries please contact
-* [Joseph Ndegwa](kariukindegwa98@gmail.com)
+ [Joseph Ndegwa](kariukindegwa98@gmail.com)
 
 ## LIcense
  [MIT](https://choosealicense.com/licenses/mit/)
